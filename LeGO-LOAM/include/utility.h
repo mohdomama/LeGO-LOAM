@@ -10,7 +10,7 @@
 
 #include "cloud_msgs/cloud_info.h"
 
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
 
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
@@ -73,6 +73,14 @@ extern const int groundScanInd = 7;
 // extern const float ang_res_x = 360.0/float(Horizon_SCAN);
 // extern const float ang_res_y = 41.33/float(N_SCAN-1);
 // extern const float ang_bottom = 30.67;
+// extern const int groundScanInd = 20;
+
+// HDL-64E
+// extern const int N_SCAN = 64;
+// extern const int Horizon_SCAN = 1800;
+// extern const float ang_res_x = 0.001396263;
+// extern const float ang_res_y = 0.4677482;
+// extern const float ang_bottom = 24.8;
 // extern const int groundScanInd = 20;
 
 // VLS-128
